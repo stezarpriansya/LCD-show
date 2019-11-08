@@ -21,7 +21,7 @@ sudo cp -rf ./nes /home/pi/RetroPie/roms/
 fi
 
 echo "1" > ./boot/mark
-sudo dpkg -i -B ./xinput-calibrator_0.7.5-1_armhf.deb
+sudo dpkg -i -B ./xinput-calibrator_0.7.5+git20140201-1+b2_arm64.deb
 
 sudo apt-get install cmake -y
 cd ./rpi-fbcp/build/
